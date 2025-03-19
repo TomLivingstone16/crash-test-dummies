@@ -1,0 +1,12 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Manager","order":10,"path":"folders/Manager.yy",},
+    {"name":"Player","order":9,"path":"folders/Player.yy",},
+    {"name":"Rooms","order":5,"path":"folders/Rooms.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"oGame","order":1,"path":"objects/oGame/oGame.yy",},
+    {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"rTesting","order":1,"path":"rooms/rTesting/rTesting.yy",},
+  ],
+}
