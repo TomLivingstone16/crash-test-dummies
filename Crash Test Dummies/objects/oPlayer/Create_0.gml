@@ -1,5 +1,6 @@
 xspd = 0
 yspd = 0
 
+movespd = 3
 
-movespd = 2
+jumpStarted = false

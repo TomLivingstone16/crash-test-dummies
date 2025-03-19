@@ -6,7 +6,11 @@
   ],
   "ResourceOrderSettings":[
     {"name":"oGame","order":1,"path":"objects/oGame/oGame.yy",},
+    {"name":"oObstacle","order":11,"path":"objects/oObstacle/oObstacle.yy",},
     {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"oWall","order":13,"path":"objects/oWall/oWall.yy",},
     {"name":"rTesting","order":1,"path":"rooms/rTesting/rTesting.yy",},
+    {"name":"sObstacle","order":12,"path":"sprites/sObstacle/sObstacle.yy",},
+    {"name":"sWall","order":14,"path":"sprites/sWall/sWall.yy",},
   ],
 }
