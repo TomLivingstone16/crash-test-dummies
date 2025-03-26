@@ -17,3 +17,9 @@ bufferTime = 3;
 
 jumpKeyBuffered = false;
 jumpKeyBufferTimer = 0;
+
+
+//Sprites
+sprIdle = sPlayerIdle
+sprRun = sPlayerRun
+sprJump = sPlayerJump

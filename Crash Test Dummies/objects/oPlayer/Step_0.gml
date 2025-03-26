@@ -6,8 +6,6 @@ keyRight = clamp(keyRight,0,1)
 keyJumpPressed = keyboard_check_pressed(global.jumpKey)
 keyJumpPressed = clamp(keyJumpPressed,0,1);
 
-keyJump = keyboard_check(vk_space)
-keyJump = clamp(keyJump,0,1)
 
 //Jump Key Buffering
 if keyJumpPressed
@@ -50,6 +48,8 @@ if yspd > termVel {yspd = termVel};
 //Jump
 if jumpKeyBuffered && place_meeting(x,y+1,oWall)
 {
+	jumpKeyBuffered = false
+	jumpKeyBufferTimer = 0;
 	yspd = jspd;
 }
 
@@ -77,4 +77,26 @@ if place_meeting(x+xspd, y, oObstacle)
 {
 	show_debug_message("Player died") //Replace with proper death code later
 	instance_destroy();
+}
+
+//Sprite Control
+if xspd == 0 && yspd = 0
+{
+	sprite_index = sprIdle
+}
+if xspd != 0 && yspd == 0
+{
+	sprite_index = sprRun
+}
+if xspd < 0
+{
+	image_xscale = -1;
+}
+else if xspd > 0
+{
+	image_xscale = 1
+}
+if yspd != 0
+{
+	sprite_index = sprJump
 }
