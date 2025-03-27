@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"sObstacle",
+  "%Name":"sObstacleSpawner",
   "bboxMode":0,
   "bbox_bottom":15,
   "bbox_left":0,
@@ -12,18 +12,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a72d0a60-ca23-4438-8a44-1d714dfd9f37","name":"a72d0a60-ca23-4438-8a44-1d714dfd9f37","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"fb452180-dd3a-470d-bc77-73e283ee0a6c","name":"fb452180-dd3a-470d-bc77-73e283ee0a6c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"deba96fd-217c-4e26-9a96-0d9ab98baf41","blendMode":0,"displayName":"default","isLocked":false,"name":"deba96fd-217c-4e26-9a96-0d9ab98baf41","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ee51d5df-a801-46e5-9eea-9995877e2c33","blendMode":0,"displayName":"default","isLocked":false,"name":"ee51d5df-a801-46e5-9eea-9995877e2c33","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"sObstacle",
+  "name":"sObstacleSpawner",
   "nineSlice":null,
-  "origin":4,
+  "origin":0,
   "parent":{
     "name":"Crash Test Dummies",
     "path":"Crash Test Dummies.yyp",
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"sObstacle",
+    "%Name":"sObstacleSpawner",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"sObstacle",
+    "name":"sObstacleSpawner",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,14 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a72d0a60-ca23-4438-8a44-1d714dfd9f37","path":"sprites/sObstacle/sObstacle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d67041dd-711e-4ce9-901c-00915c2231f3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fb452180-dd3a-470d-bc77-73e283ee0a6c","path":"sprites/sObstacleSpawner/sObstacleSpawner.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0b6cbc2d-fe8c-4656-aafa-0a814b8fa78d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":8,
-    "yorigin":8,
+    "xorigin":0,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

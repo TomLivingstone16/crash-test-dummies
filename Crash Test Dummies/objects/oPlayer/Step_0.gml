@@ -73,7 +73,7 @@ y += yspd
 
 
 //Obstacle collision
-if place_meeting(x+xspd, y, oObstacle)
+if place_meeting(x+xspd, y, pObstacle)
 {
 	show_debug_message("Player died") //Replace with proper death code later
 	instance_destroy();
