@@ -18,3 +18,6 @@ states = {
 }
 
 state = states.idle
+
+//Score on defeat
+scoreVal = 1500

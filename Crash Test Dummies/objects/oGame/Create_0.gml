@@ -1,6 +1,8 @@
 //Set up Globals
 global.highscores = [] //Empty array at beginning
-global.score = 0;
+global.score = {
+	testLevel : 0,
+};
 
 //Input Globals
 global.leftKey = ord("A")

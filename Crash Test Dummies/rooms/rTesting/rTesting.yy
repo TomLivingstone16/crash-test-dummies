@@ -23,6 +23,7 @@
     {"name":"inst_2B0E86AD","path":"rooms/rTesting/rTesting.yy",},
     {"name":"inst_642C3E65","path":"rooms/rTesting/rTesting.yy",},
     {"name":"inst_2ED75467","path":"rooms/rTesting/rTesting.yy",},
+    {"name":"inst_563F537C","path":"rooms/rTesting/rTesting.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -44,6 +45,12 @@
         {"$GMRInstance":"v1","%Name":"inst_2B0E86AD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2B0E86AD","objectId":{"name":"oFollowObstacle","path":"objects/oFollowObstacle/oFollowObstacle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":192.0,},
         {"$GMRInstance":"v1","%Name":"inst_642C3E65","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_642C3E65","objectId":{"name":"oFollowObstacle","path":"objects/oFollowObstacle/oFollowObstacle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":64.0,},
         {"$GMRInstance":"v1","%Name":"inst_2ED75467","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2ED75467","objectId":{"name":"oObstacleSpawner","path":"objects/oObstacleSpawner/oObstacleSpawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":160.0,},
+        {"$GMRInstance":"v1","%Name":"inst_563F537C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_563F537C","objectId":{"name":"oMovingObstacle","path":"objects/oMovingObstacle/oMovingObstacle.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oMovingObstacle","path":"objects/oMovingObstacle/oMovingObstacle.yy",},"propertyId":{"name":"xBegin","path":"objects/oMovingObstacle/oMovingObstacle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"208",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oMovingObstacle","path":"objects/oMovingObstacle/oMovingObstacle.yy",},"propertyId":{"name":"yBegin","path":"objects/oMovingObstacle/oMovingObstacle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"32",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oMovingObstacle","path":"objects/oMovingObstacle/oMovingObstacle.yy",},"propertyId":{"name":"xEnd","path":"objects/oMovingObstacle/oMovingObstacle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"300",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oMovingObstacle","path":"objects/oMovingObstacle/oMovingObstacle.yy",},"propertyId":{"name":"yEnd","path":"objects/oMovingObstacle/oMovingObstacle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":11.0,"scaleY":1.0,"x":208.0,"y":32.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4287769292,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
@@ -63,14 +70,14 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":360,
+    "Height":720,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":640,
+    "Width":1280,
   },
   "sequenceId":null,
   "views":[
-    {"hborder":32,"hport":720,"hspeed":-1,"hview":360,"inherit":false,"objectId":null,"vborder":32,"visible":true,"vspeed":-1,"wport":1280,"wview":640,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":1000,"hport":720,"hspeed":-1,"hview":360,"inherit":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"vborder":1000,"visible":true,"vspeed":-1,"wport":1280,"wview":640,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},

@@ -17,3 +17,7 @@ states = {
 
 //By default, we set to idle state until player comes close enough
 state = states.idle
+
+
+//Score on defeat
+scoreVal = 1000

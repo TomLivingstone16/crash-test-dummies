@@ -19,3 +19,6 @@ states = {
 
 //By default, we set to idle state until player comes close enough
 state = states.move
+
+//Score on defeat
+scoreVal = 0 //Bullets are worth nothing since score is incremented from the spawner's destruction

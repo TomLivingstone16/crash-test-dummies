@@ -16,6 +16,7 @@ function MoveState()
 }
 function DestroyState()
 {
+	oScoreTracker.roomScore += scoreVal
 	//Destroy the obstacle
 	instance_destroy()
 }
