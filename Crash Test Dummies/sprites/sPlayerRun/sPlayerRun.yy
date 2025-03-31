@@ -22,7 +22,7 @@
   "height":26,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"be81bbf2-4fee-490b-80b3-38b9b26ed9ea","blendMode":0,"displayName":"default","isLocked":false,"name":"be81bbf2-4fee-490b-80b3-38b9b26ed9ea","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"32a74411-c437-4f51-8e84-a2192ccf0803","blendMode":0,"displayName":"default","isLocked":false,"name":"32a74411-c437-4f51-8e84-a2192ccf0803","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sPlayerRun",
   "nineSlice":null,
@@ -62,7 +62,7 @@
     },
     "name":"sPlayerRun",
     "playback":1,
-    "playbackSpeed":16.0,
+    "playbackSpeed":12.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

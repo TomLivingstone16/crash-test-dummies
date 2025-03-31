@@ -76,7 +76,7 @@ y += yspd
 if place_meeting(x+xspd, y, pObstacle)
 {
 	show_debug_message("Player died") //Replace with proper death code later
-	instance_destroy();
+	game_restart();
 }
 
 //Sprite Control
