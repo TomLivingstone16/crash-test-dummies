@@ -17,6 +17,7 @@
     {"name":"pObstacle","order":5,"path":"objects/pObstacle/pObstacle.yy",},
     {"name":"rTesting","order":1,"path":"rooms/rTesting/rTesting.yy",},
     {"name":"ObstacleStates","order":9,"path":"scripts/ObstacleStates/ObstacleStates.yy",},
+    {"name":"SaveLoadScores","order":23,"path":"scripts/SaveLoadScores/SaveLoadScores.yy",},
     {"name":"sCollectibleTest","order":1,"path":"sprites/sCollectibleTest/sCollectibleTest.yy",},
     {"name":"sObstacleSpawnerTest","order":7,"path":"sprites/sObstacleSpawnerTest/sObstacleSpawnerTest.yy",},
     {"name":"sObstacleTest","order":6,"path":"sprites/sObstacleTest/sObstacleTest.yy",},

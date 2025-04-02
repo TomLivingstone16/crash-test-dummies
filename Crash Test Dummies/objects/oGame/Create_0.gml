@@ -1,3 +1,5 @@
+
+
 //Set up Globals
 global.highscores = [] //Empty array at beginning
 global.score = {
@@ -11,3 +13,5 @@ global.jumpKey = vk_space
 
 
 depth = -99999999
+
+LoadScore()
