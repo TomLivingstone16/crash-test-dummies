@@ -9,8 +9,8 @@
   "name":"oFollowObstacle",
   "overriddenProperties":[],
   "parent":{
-    "name":"Crash Test Dummies",
-    "path":"Crash Test Dummies.yyp",
+    "name":"Obstacles",
+    "path":"folders/Obstacles.yy",
   },
   "parentObjectId":{
     "name":"pObstacle",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sObstacle",
-    "path":"sprites/sObstacle/sObstacle.yy",
+    "name":"sObstacleTest",
+    "path":"sprites/sObstacleTest/sObstacleTest.yy",
   },
   "spriteMaskId":null,
   "visible":true,

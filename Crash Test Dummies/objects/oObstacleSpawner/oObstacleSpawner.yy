@@ -9,8 +9,8 @@
   "name":"oObstacleSpawner",
   "overriddenProperties":[],
   "parent":{
-    "name":"Crash Test Dummies",
-    "path":"Crash Test Dummies.yyp",
+    "name":"Obstacles",
+    "path":"folders/Obstacles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sObstacleSpawner",
-    "path":"sprites/sObstacleSpawner/sObstacleSpawner.yy",
+    "name":"sObstacleSpawnerTest",
+    "path":"sprites/sObstacleSpawnerTest/sObstacleSpawnerTest.yy",
   },
   "spriteMaskId":null,
   "visible":true,

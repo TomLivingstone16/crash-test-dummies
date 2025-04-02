@@ -6,8 +6,8 @@
   "name":"oWall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Crash Test Dummies",
-    "path":"Crash Test Dummies.yyp",
+    "name":"Obstacles",
+    "path":"folders/Obstacles.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"ObstacleStates",
   "parent":{
-    "name":"Crash Test Dummies",
-    "path":"Crash Test Dummies.yyp",
+    "name":"Obstacles",
+    "path":"folders/Obstacles.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

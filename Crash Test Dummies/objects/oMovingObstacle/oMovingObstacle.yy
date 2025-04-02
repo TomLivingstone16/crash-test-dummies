@@ -11,8 +11,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pObstacle","path":"objects/pObstacle/pObstacle.yy",},"propertyId":{"name":"includeInEnd","path":"objects/pObstacle/pObstacle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
   ],
   "parent":{
-    "name":"Crash Test Dummies",
-    "path":"Crash Test Dummies.yyp",
+    "name":"Obstacles",
+    "path":"folders/Obstacles.yy",
   },
   "parentObjectId":{
     "name":"pObstacle",
@@ -42,8 +42,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sObstacle",
-    "path":"sprites/sObstacle/sObstacle.yy",
+    "name":"sObstacleTest",
+    "path":"sprites/sObstacleTest/sObstacleTest.yy",
   },
   "spriteMaskId":null,
   "visible":true,
