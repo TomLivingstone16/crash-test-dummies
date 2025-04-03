@@ -10,7 +10,7 @@ for (var i = 0; i < _obstCount; i++;)
 	{
 		if _inst.object_index = oMovingObstacle or _inst.object_index = oBulletObstacle //If instance is a moving obstacle or a bullet, filter them out
 		{
-			show_debug_message("nope")
+			//show_debug_message("nope")
 		}
 		else
 		{
@@ -37,6 +37,6 @@ if _count <= 0 //temporary, replace with proper code later
 
 
 //Debug
-show_debug_message("obstacles: {0}",_obstCount+_spawnCount)
-show_debug_message("defeatable: {0}",_count)
-show_debug_message(string(_obstacles))
+//show_debug_message("obstacles: {0}",_obstCount+_spawnCount)
+//show_debug_message("defeatable: {0}",_count)
+//show_debug_message(string(_obstacles))

@@ -1,7 +1,5 @@
-
-
 //Set up Globals
-global.highscores = [] //Empty array at beginning
+global.highscores = 0 //Empty at beginning
 global.score = {
 	testLevel : 0,
 };
