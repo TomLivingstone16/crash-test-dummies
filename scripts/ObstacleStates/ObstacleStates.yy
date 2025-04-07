@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ObstacleStates",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ObstacleStates",
+  "parent":{
+    "name":"Obstacles",
+    "path":"folders/Obstacles.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
