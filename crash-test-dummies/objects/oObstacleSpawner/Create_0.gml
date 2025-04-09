@@ -1,9 +1,6 @@
 //Set Timer parameters
-timerLength = 15;
 timer = 0
 
-//Max Shots
-maxShots = 10
 
 //Player Detection
 xTo = 0;

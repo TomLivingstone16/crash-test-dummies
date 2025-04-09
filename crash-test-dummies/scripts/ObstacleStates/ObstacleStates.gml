@@ -24,7 +24,11 @@ function ShootState()
 {
 	if timer = 0
 	{
-		instance_create_depth(x,y,depth,oBulletObstacle)
+		var _inst = instance_create_depth(x,y,depth,oBulletObstacle)
+		with (_inst)
+		{
+			spd = other.bulletSpd
+		}
 		timer = timerLength
 		maxShots--;
 	}

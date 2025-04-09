@@ -54,7 +54,6 @@ if jumpKeyBuffered && place_meeting(x,y+1,oWall)
 }
 
 //Y Collision
-var _subPixel = .5;
 if place_meeting(x,y+yspd,oWall)
 {
 	//Scoot up to wall precisely

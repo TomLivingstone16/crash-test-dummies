@@ -4,7 +4,7 @@ yTo = oPlayer.y - 16 //-16 to account for origin on bottom
 
 //Set Direction
 dir = point_direction(x,y,xTo,yTo)
-spd = 3;
+spd = 0;
 
 xspd = 0;
 yspd = 0;
