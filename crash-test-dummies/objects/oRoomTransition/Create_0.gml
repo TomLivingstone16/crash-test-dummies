@@ -1,0 +1,2 @@
+targetRoom = noone
+roomLoaded = false

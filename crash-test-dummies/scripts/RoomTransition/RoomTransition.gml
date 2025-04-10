@@ -1,16 +1,6 @@
-function RoomTransition()
+function RoomTransition(_room)
 {
-	for (var i = 0; i < array_length(global.levelprogression); i++;)
-	{
-		if global.levelprogression[i] == room
-		{
-			if i+1 == array_length(global.levelprogression)
-			{
-				game_end()
-			}
-			else room_goto(global.levelprogression[i+1]) // Add fade code later
-			
-		}
-	}
+	instance_create_depth(x,y,depth,oRoomTransition)
+	oRoomTransition.targetRoom = _room
 	
 }

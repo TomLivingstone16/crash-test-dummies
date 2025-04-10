@@ -28,13 +28,13 @@ for (var i = 0; i < _spawnCount; i++;)
 	array_push(_obstacles,_inst)
 }
 
-if _count <= 0 //temporary, replace with proper code later
+if _count <= 0 && !instance_exists(oRoomTransition) //temporary, replace with proper code later
 {
 	show_message("defeated all!")
 	show_debug_message("Final Score: {0}", roomScore)
 	
 	//Transition to next room
-	RoomTransition()
+	RoomTransition(rTesting2)
 }
 
 
