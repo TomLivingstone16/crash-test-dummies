@@ -6,10 +6,10 @@ var _names = struct_get_names(global.score)
 //Loop through struct names array
 for (var i = 0; i < array_length(_names); i++)
 {
-	show_debug_message(_names[i])
+	//show_debug_message(_names[i])
 	//Add level score to total score
 	_score += global.score[$ _names[i]]
-	show_debug_message(_score)
+	//show_debug_message(_score)
 }
 
 

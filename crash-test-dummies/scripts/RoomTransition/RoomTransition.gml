@@ -1,6 +1,10 @@
 function RoomTransition(_room)
 {
-	instance_create_depth(x,y,depth,oRoomTransition)
-	oRoomTransition.targetRoom = _room
+	if !instance_exists(oRoomTransition) 
+	{
+		var _inst = instance_create_depth(x,y,depth,oRoomTransition)
+		_inst.targetRoom = _room
+	
+	}
 	
 }

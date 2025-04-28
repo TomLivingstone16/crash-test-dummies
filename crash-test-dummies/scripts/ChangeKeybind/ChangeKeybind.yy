@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"RoomTransition",
+  "%Name":"ChangeKeybind",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"RoomTransition",
+  "name":"ChangeKeybind",
   "parent":{
-    "name":"Manager",
-    "path":"folders/Manager.yy",
+    "name":"Crash Test Dummies",
+    "path":"Crash Test Dummies.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -16,4 +16,4 @@ if _dist < radius
 
 
 //Activate State
-state();
+if !global.gamePaused state();

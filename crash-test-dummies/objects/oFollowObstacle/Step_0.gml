@@ -21,4 +21,4 @@ if place_meeting(x,y,oWall)
 }
 
 //Run the current state
-state();
+if !global.gamePaused state();

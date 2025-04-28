@@ -1,4 +1,4 @@
-if image_index == 0 and roomLoaded == true
+if room == targetRoom && image_index < 1 && reloading == false
 {
-	instance_destroy()
+	instance_destroy();
 }
