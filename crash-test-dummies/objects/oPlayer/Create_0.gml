@@ -23,3 +23,10 @@ jumpKeyBufferTimer = 0;
 sprIdle = sPlayerIdle
 sprRun = sPlayerRun
 sprJump = sPlayerJump
+
+//States
+state = PlayerStateMove
+moving = false
+
+deathWaitTimer = 60
+deathWaitTime = 0

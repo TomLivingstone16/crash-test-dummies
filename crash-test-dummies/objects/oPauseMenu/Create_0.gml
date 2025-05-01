@@ -17,3 +17,6 @@ options[2] = [
 
 menuLevel = 0;
 selectedOption = 0
+
+changingKey = false
+changeKey = noone

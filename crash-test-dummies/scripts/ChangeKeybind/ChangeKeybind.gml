@@ -1,6 +1,5 @@
-function ChangeKeybind(_key)
+function ChangeKeybind(_key,_newKey)
 {
-	var _newKey = ord("F")
 	
-	_key = _newKey
+	changingKey = false
 }
