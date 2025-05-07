@@ -177,7 +177,7 @@ function PlayerStateDead()
 	
 	if deathWaitTime <= 0
 	{
-		room_restart() //Replace with proper room restart code later
+		RoomTransition(room,#BF1618)
 	}
 	//Gravity
 	yspd += grav;
@@ -193,7 +193,7 @@ function PlayerStateDead()
 		{
 			y += _pixelCheck;
 		}
-	
 		yspd = 0
 	}
+	y += yspd
 }

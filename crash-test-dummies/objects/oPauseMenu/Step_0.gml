@@ -36,7 +36,8 @@ if (global.gamePaused)
 			}
 			if selectedOption == 3 //If selected quit to title
 			{
-				//Nothing yet since i haven't added a title screen
+				RoomTransition(rTitle)
+				global.gamePaused = false
 			}
 			if selectedOption == 4 //if selected quit to desktop
 			{
@@ -139,7 +140,7 @@ if changingKey = true
 	
 }
 
-if keyboard_check_pressed(global.pauseKey) && changingKey == false
+if keyboard_check_pressed(global.pauseKey) && changingKey == false && room != rTitle
 {
 	global.gamePaused = !global.gamePaused
 }

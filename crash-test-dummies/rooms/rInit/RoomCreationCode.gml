@@ -1,1 +1,1 @@
-room_goto(rTesting)
+room_goto(rTitle)
