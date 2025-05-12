@@ -13,5 +13,5 @@ alpha += alphaWave/50
 
 if keyboard_check_pressed(vk_enter)
 {
-	RoomTransition(rTesting)
+	RoomTransition(rLevelSelect)
 }

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"RoomToName",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"RoomToName",
+  "parent":{
+    "name":"Manager",
+    "path":"folders/Manager.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

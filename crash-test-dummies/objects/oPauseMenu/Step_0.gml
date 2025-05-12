@@ -57,7 +57,7 @@ if (global.gamePaused)
 		}
 		if menuLevel == 2 //If on Controls menu
 		{
-			if selectedOption == 0 || 1 || 2 || 3 || 4 || 5 || 6 //If selected any of the controls
+			if selectedOption == (0 || 1 || 2 || 3 || 4 || 5 || 6) //If selected any of the controls
 			{
 				changingKey = true
 			}
@@ -144,3 +144,6 @@ if keyboard_check_pressed(global.pauseKey) && changingKey == false && room != rT
 {
 	global.gamePaused = !global.gamePaused
 }
+
+show_debug_message(selectedOption)
+show_debug_message(changingKey)

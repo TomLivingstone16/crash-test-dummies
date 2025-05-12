@@ -1,4 +1,4 @@
-if room != rTitle
+if room != (rLevelSelect || rTitle)
 {
 	var _obstCount = instance_number(pObstacle)
 	var _spawnCount = instance_number(oObstacleSpawner)
