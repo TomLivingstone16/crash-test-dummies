@@ -1,1 +1,1 @@
-room_goto(rTesting) //Skipover for testing
+//room_goto(rTesting) //Skipover for testing

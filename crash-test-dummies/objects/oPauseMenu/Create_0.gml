@@ -1,9 +1,9 @@
 depth = -9999999999999999999
 
 
-options[0] = ["Resume","Reset Level", "Settings","Quit to Title","Quit to Desktop"] //Base Menu
-options[1] = ["Controls", "Back"] //Settings Menu
-options[2] = [
+options[0] = ["Resume", "Settings","Reset Level","Quit to Title","Quit to Desktop"] //Base Menu
+options[1] = ["~Settings~","Controls", "Back"] //Settings Menu
+options[2] = ["~Controls~",
 	"Left: " + KeyToString(global.leftKey),
 	"Right: " + KeyToString(global.rightKey),
 	"Up: " + KeyToString(global.upKey),
@@ -14,7 +14,7 @@ options[2] = [
 	"Back"
 	]
 
-
+transitioning = false
 menuLevel = 0;
 selectedOption = 0
 
