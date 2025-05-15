@@ -28,6 +28,7 @@
   "resources":[
     {"id":{"name":"fText","path":"fonts/fText/fText.yy",},},
     {"id":{"name":"oBulletObstacle","path":"objects/oBulletObstacle/oBulletObstacle.yy",},},
+    {"id":{"name":"oConfetti","path":"objects/oConfetti/oConfetti.yy",},},
     {"id":{"name":"oFollowObstacle","path":"objects/oFollowObstacle/oFollowObstacle.yy",},},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},
     {"id":{"name":"oLevelSelect","path":"objects/oLevelSelect/oLevelSelect.yy",},},
@@ -55,6 +56,7 @@
     {"id":{"name":"SaveLoadScores","path":"scripts/SaveLoadScores/SaveLoadScores.yy",},},
     {"id":{"name":"sndMenuNavigation","path":"sounds/sndMenuNavigation/sndMenuNavigation.yy",},},
     {"id":{"name":"sCollectibleTest","path":"sprites/sCollectibleTest/sCollectibleTest.yy",},},
+    {"id":{"name":"sConfetti","path":"sprites/sConfetti/sConfetti.yy",},},
     {"id":{"name":"sObstacleSpawnerTest","path":"sprites/sObstacleSpawnerTest/sObstacleSpawnerTest.yy",},},
     {"id":{"name":"sObstacleTest","path":"sprites/sObstacleTest/sObstacleTest.yy",},},
     {"id":{"name":"sPlayerDead","path":"sprites/sPlayerDead/sPlayerDead.yy",},},

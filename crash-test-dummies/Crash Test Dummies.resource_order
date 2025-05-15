@@ -1,4 +1,7 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"oConfetti","order":1,"path":"objects/oConfetti/oConfetti.yy",},
+    {"name":"sConfetti","order":2,"path":"sprites/sConfetti/sConfetti.yy",},
+  ],
 }

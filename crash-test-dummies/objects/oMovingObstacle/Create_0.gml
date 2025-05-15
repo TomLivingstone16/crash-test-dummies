@@ -4,3 +4,6 @@ xTo = 0;
 yTo = 0;
 
 
+xspd = 0
+yspd = 0
+dir = 0

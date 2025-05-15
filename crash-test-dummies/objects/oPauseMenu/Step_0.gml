@@ -122,7 +122,6 @@ if changingKey = true
 			options[menuLevel][selectedOption] = "Pause: [PRESS KEY]"
 			break;
 	}
-	show_debug_message(KeyToString(keyboard_key))
 	
 	if keyboard_key != vk_nokey && keyboard_key != global.interactKey
 	{
@@ -173,6 +172,3 @@ if keyboard_check_pressed(global.pauseKey) && changingKey == false && room != rT
 	global.gamePaused = !global.gamePaused
 }
 
-show_debug_message(selectedOption)
-show_debug_message(changingKey)
-show_debug_message(string(keyboard_check_pressed(global.interactKey)) + ": EGG SALAD")

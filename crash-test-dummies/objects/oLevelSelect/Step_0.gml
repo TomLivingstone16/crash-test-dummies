@@ -5,9 +5,9 @@ if (keyboard_check_pressed(global.downKey) or keyboard_check_pressed(global.upKe
 }
 if selectedOption < 0
 {
-	selectedOption = array_length(global.levelprogression) -1
+	selectedOption = global.levelsUnlocked
 }
-else if selectedOption > array_length(global.levelprogression) -1
+else if selectedOption > global.levelsUnlocked
 {
 	selectedOption = 0
 }
@@ -16,3 +16,4 @@ if keyboard_check_pressed(global.interactKey)
 {
 	RoomTransition(global.levelprogression[selectedOption])
 }
+

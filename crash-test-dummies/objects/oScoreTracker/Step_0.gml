@@ -30,12 +30,14 @@ if room != (rLevelSelect || rTitle)
 		array_push(_obstacles,_inst)
 	}
 
-	if _count <= 0 && !instance_exists(oRoomTransition) //temporary, replace with proper code later
+	if _count <= 0 && !instance_exists(oRoomTransition)
 	{
-		show_message("defeated all!")
-		show_debug_message("Final Score: {0}", roomScore)
-	
-		//Transition to next room
-		RoomTransition(rTesting2)
+		//Update unlocked levels
+		if global.levelsUnlocked+1 < global.maxLevels global.levelsUnlocked += 1;
+		
+		
+		//Run confetti and stuff first
+		if !instance_exists(oConfetti) instance_create_depth(camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0]),depth,oConfetti)
+		
 	}
 }

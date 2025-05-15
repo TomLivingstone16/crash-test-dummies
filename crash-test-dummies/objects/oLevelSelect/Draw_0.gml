@@ -5,8 +5,14 @@ draw_set_colour(c_white)
 draw_set_font(fText)
 
 //Draw Options
-for (var i = 0; i < array_length(global.levelprogression); i++)
+for (var i = 0; i < global.levelsUnlocked+1; i++)
 {
+	if !array_contains(global.roomsVisited,RoomToName(global.levelprogression[i]))
+	{
+		if i = selectedOption draw_set_colour(c_yellow)
+		draw_text(60,64+18*i,"[NEW]")
+		draw_set_colour(c_white)
+	}
 	if i = selectedOption
 	{
 		draw_set_colour(c_yellow)

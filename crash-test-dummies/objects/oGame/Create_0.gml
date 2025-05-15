@@ -14,8 +14,13 @@ global.score = {
 	testLevel2 : 0,
 };
 global.iPauseMenu = instance_create_depth(x,y,depth,oPauseMenu)
+
 global.levelprogression = [rTesting,rTesting2]
+global.levelsUnlocked = 0
+global.maxLevels = array_length(global.levelprogression)
 global.gamePaused = false
+
+global.roomsVisited = array_create(0)
 
 
 

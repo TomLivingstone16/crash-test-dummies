@@ -1,4 +1,4 @@
-if !global.gamePaused
+if (!global.gamePaused)
 {
 	if justVisited = 0 //if last point was the begin point
 	{
@@ -28,7 +28,13 @@ if !global.gamePaused
 	
 		if justVisited == 0 justVisited = 1 else justVisited = 0
 	}
-
+	
+	if instance_exists(oConfetti)
+	{
+		xspd = 0
+		yspd = 0
+	}
+	
 	x += xspd
 	y += yspd
 }
