@@ -8,8 +8,8 @@
   "name":"oConfetti",
   "overriddenProperties":[],
   "parent":{
-    "name":"Crash Test Dummies",
-    "path":"Crash Test Dummies.yyp",
+    "name":"Manager",
+    "path":"folders/Manager.yy",
   },
   "parentObjectId":null,
   "persistent":false,

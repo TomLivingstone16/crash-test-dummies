@@ -40,8 +40,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Crash Test Dummies",
-    "path":"Crash Test Dummies.yyp",
+    "name":"Manager",
+    "path":"folders/Manager.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

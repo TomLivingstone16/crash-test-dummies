@@ -53,7 +53,7 @@
     {"id":{"name":"PlayerScripts","path":"scripts/PlayerScripts/PlayerScripts.yy",},},
     {"id":{"name":"RoomToName","path":"scripts/RoomToName/RoomToName.yy",},},
     {"id":{"name":"RoomTransition","path":"scripts/RoomTransition/RoomTransition.yy",},},
-    {"id":{"name":"SaveLoadScores","path":"scripts/SaveLoadScores/SaveLoadScores.yy",},},
+    {"id":{"name":"SaveLoad","path":"scripts/SaveLoad/SaveLoad.yy",},},
     {"id":{"name":"sndMenuNavigation","path":"sounds/sndMenuNavigation/sndMenuNavigation.yy",},},
     {"id":{"name":"sCollectibleTest","path":"sprites/sCollectibleTest/sCollectibleTest.yy",},},
     {"id":{"name":"sConfetti","path":"sprites/sConfetti/sConfetti.yy",},},

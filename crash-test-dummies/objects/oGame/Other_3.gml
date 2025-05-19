@@ -35,4 +35,5 @@ for (var s = 0; s < array_length(global.highscores)+1; s++)
 	}
 }
 
-SaveScore()
+//Save data to file so it can be used on future playthroughs
+SaveGame()

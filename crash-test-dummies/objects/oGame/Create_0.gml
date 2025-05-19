@@ -24,8 +24,7 @@ global.roomsVisited = array_create(0)
 
 
 
-
 depth = -99999999
 
-//Load the high scores array from file
-LoadScore()
+//Load the data from file to overwrite defaults
+LoadGame()

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"SaveLoadScores",
+  "%Name":"SaveLoad",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"SaveLoadScores",
+  "name":"SaveLoad",
   "parent":{
     "name":"Manager",
     "path":"folders/Manager.yy",
