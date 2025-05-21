@@ -14,6 +14,7 @@ else if selectedOption > global.levelsUnlocked
 
 if keyboard_check_pressed(global.interactKey)
 {
+	show_debug_message(RoomToName(global.levelprogression[selectedOption]))
 	RoomTransition(global.levelprogression[selectedOption])
 }
 

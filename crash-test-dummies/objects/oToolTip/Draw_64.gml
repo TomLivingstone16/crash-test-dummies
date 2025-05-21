@@ -1,0 +1,1 @@
+draw_sprite_stretched(sTooltipBox,0,x,y,505,250)

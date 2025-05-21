@@ -10,11 +10,10 @@ if room != (rLevelSelect || rTitle)
 	{
 		var _inst = instance_find(pObstacle,i) 
 		{
-			if _inst.object_index = oMovingObstacle or _inst.object_index = oBulletObstacle //If instance is a moving obstacle or a bullet, filter them out
-			{
-				//show_debug_message("nope")
-			}
-			else
+			//If instance does not contribute to score, filter out
+			if !(_inst.object_index = oMovingObstacle 
+			or _inst.object_index = oBulletObstacle 
+			or _inst.object_index = pObstacle)
 			{
 				_count += 1
 				array_push(_obstacles,_inst)
@@ -37,7 +36,7 @@ if room != (rLevelSelect || rTitle)
 		
 		
 		//Run confetti and stuff first
-		if !instance_exists(oConfetti) instance_create_depth(camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0]),depth,oConfetti)
+		if !instance_exists(oLevelEnder) instance_create_depth(x,y,depth,oLevelEnder)
 		
 	}
 }

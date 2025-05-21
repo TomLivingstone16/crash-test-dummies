@@ -12,10 +12,11 @@ global.highscores = 0 //Empty at beginning, will be set with values once score i
 global.score = {
 	testLevel : 0,
 	testLevel2 : 0,
+	level1 : 0,
 };
 global.iPauseMenu = instance_create_depth(x,y,depth,oPauseMenu)
 
-global.levelprogression = [rTesting,rTesting2]
+global.levelprogression = [rLevel1]
 global.levelsUnlocked = 0
 global.maxLevels = array_length(global.levelprogression)
 global.gamePaused = false

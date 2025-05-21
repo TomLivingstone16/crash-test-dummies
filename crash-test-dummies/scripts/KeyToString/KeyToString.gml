@@ -2,6 +2,45 @@ function KeyToString(_key){
 	
 	switch _key
 	{
+		case	0:		return " "
+		case	8:		return	"Backspace"
+		case	9:		return "Tab"
+		
+		case	13:		return "Enter"
+		
+		case	16:		return "Shift"
+		
+		
+		case	19:		return "Pause"
+		case	20:		return "Caps Lock"
+
+		case	27:		return "Escape"
+
+		case	32:		return "Space"
+		case	33:		return "Page Up"
+		case	34:		return "Page Down"
+		case	35:		return "End"
+		case	36:		return "Home"
+		case	37:		return "Left"
+		case	38:		return "Up"
+		case	39:		return "Right"
+		case	40:		return "Down"
+		
+		case	45:		return "Insert"
+		case	46:		return "Delete"
+		
+		case	48:		return "0"
+		case	49:		return "1"
+		case	50:		return "2"
+		case	51:		return "3"
+		case	52:		return "4"
+		case	53:		return "5"
+		case	54:		return "6"
+		case	55:		return "7"
+		case	56:		return "8"
+		case	57:		return "9"
+		
+		
 		case	65:		return "A"       
 		case	66:		return "B"       
 		case	67:		return "C"       
@@ -27,34 +66,9 @@ function KeyToString(_key){
 		case	87:		return "W"       
 		case	88:		return "X"       
 		case	89:		return "Y"       
-		case	90:		return "Z"       
-		case	162:	return "L CTRL"		 
-		case	163:	return "R CTRL"		 
-		case	164:	return "L ALT"       
-		case	165:	return "R ALT"       
-		case	186:	return ";"
-		case	222:	return "'"
-		case	13:		return "Enter"
-		case	220:	return	"\\"
-		case	8:		return	"Backspace"
-		case	219:	return "["
-		case	221:	return "]"
-		case	188:	return ","
-		case	190:	return "."
-		case	191:	return "/"
-		case	16:		return "Shift"
-		case	9:		return "Tab"
-		case	192:	return "`"
-		case	48:		return "0"
-		case	49:		return "1"
-		case	50:		return "2"
-		case	51:		return "3"
-		case	52:		return "4"
-		case	53:		return "5"
-		case	54:		return "6"
-		case	55:		return "7"
-		case	56:		return "8"
-		case	57:		return "9"
+		case	90:		return "Z"    
+		case	91:		return "L Windows"
+		case	92:		return "R Windows"
 		
 		case	96:		return "Num 0"
 		case	97:		return "Num 1"
@@ -66,12 +80,12 @@ function KeyToString(_key){
 		case	103:	return "Num 7"
 		case	104:	return "Num 8"
 		case	105:	return "Num 9"
-		case	111:	return "Num /"
 		case	106:	return "Num *"
 		case	107:	return "Num +"
-		case	110:	return "Num ."
-		case	109:	return "Num -"
 		
+		case	109:	return "Num -"
+		case	110:	return "Num ."
+		case	111:	return "Num /"
 		case	112:	return "F1"
 		case	113:	return "F2"
 		case	114:	return "F3"
@@ -84,31 +98,60 @@ function KeyToString(_key){
 		case	121:	return "F10"
 		case	122:	return "F11"
 		case	123:	return "F12"
-		case	145:	return "ScrLk"
-		case	19:		return "Pause"
-		case	20:		return "Caps Lock"
-		case	189:	return "-"
-		case	187:	return "="
-		case	27:		return "Escape"
-		case	45:		return "Insert"
-		case	36:		return "Home"
-		case	33:		return "Page Up"
-		case	34:		return "Page Down"
-		case	35:		return "End"
-		case	46:		return "Delete"
+		
 		case	144:	return "NumLock"
-		case	38:		return "Up"
-		case	40:		return "Down"
-		case	37:		return "Left"
-		case	39:		return "Right"
-		case	91:		return "L Windows"
-		case	92:		return "R Windows"
-		case	32:		return "Space"
-		case	0:		return " "
-		case	179:	return "Play"
+		case	145:	return "ScrLk"
+		
+		case	162:	return "L CTRL"		 
+		case	163:	return "R CTRL"		 
+		case	164:	return "L ALT"       
+		case	165:	return "R ALT" 
+		
 		case	173:	return "Mute"
 		case	174:	return "Volume Down"
 		case	175:	return "Volume Up"
+		
+		case	179:	return "Play"
+		
+		case	186:	return ";"
+		case	187:	return "="
+		case	188:	return ","
+		case	189:	return "-"
+		case	190:	return "."
+		case	191:	return "/"
+		case	192:	return "`"
+		
+		case	219:	return "["
+		case	220:	return	"\\"
+		case	221:	return "]"
+		case	222:	return "'"
+		
+		
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		default:		return "key doesn't exist in this map"
 	}
 }
