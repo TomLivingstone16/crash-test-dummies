@@ -1,0 +1,1 @@
+toolTipString = string("Use {0} and {1} to move!\nUse {2} to Jump!",KeyToString(global.leftKey),KeyToString(global.rightKey),KeyToString(global.jumpKey))string("Use {0} and {1} to move!\nUse {2} to Jump!",KeyToString(global.leftKey),KeyToString(global.rightKey),KeyToString(global.jumpKey))
