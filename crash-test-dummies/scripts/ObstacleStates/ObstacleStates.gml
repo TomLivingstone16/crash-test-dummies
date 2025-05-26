@@ -1,9 +1,11 @@
 function IdleState()
 {
 	//When Idle, we are in rest and don't do anything. 
+	image_speed = 0
 }
 function MoveState()
 {
+	image_speed = 1
 	//Update direction and image angle
 	direction = dir
 	image_angle = dir

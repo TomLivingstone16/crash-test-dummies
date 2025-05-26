@@ -1,1 +1,1 @@
-toolTipString = "This will never happen\nbut it would be funny\nif it did."
+toolTipString = -1
