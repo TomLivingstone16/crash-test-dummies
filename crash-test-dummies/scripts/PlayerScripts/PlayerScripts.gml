@@ -107,6 +107,7 @@ function PlayerStateHit()
 {
 	instance_deactivate_object(pObstacle)
 	instance_deactivate_object(oObstacleSpawner)
+	instance_deactivate_object(pCollectible)
 	instance_deactivate_object(oScoreTracker)
 	sprite_index = sPlayerHurt
 	if image_xscale > 0 && moving == false //Facing Right

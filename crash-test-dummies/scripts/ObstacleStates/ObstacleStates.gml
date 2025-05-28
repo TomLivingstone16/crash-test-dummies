@@ -24,6 +24,7 @@ function DestroyState()
 }
 function ShootState()
 {
+	image_angle = dir
 	if timer = 0
 	{
 		var _inst = instance_create_depth(x,y,depth,oBulletObstacle)

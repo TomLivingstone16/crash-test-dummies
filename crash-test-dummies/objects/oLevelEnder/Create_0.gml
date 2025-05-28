@@ -1,5 +1,3 @@
-randomize();
-
 //Spawn confetti objects
 var _inst;
 repeat(irandom_range(100,250))

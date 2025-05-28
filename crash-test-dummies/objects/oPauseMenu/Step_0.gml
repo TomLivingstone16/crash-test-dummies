@@ -37,11 +37,12 @@ if (global.gamePaused)
 			}
 			if selectedOption == 3 //If selected quit to title
 			{
-				RoomTransition(rTitle)
+				RoomTransition(rTitle,c_black,false)
 				global.gamePaused = false
 			}
 			if selectedOption == 4 //if selected quit to desktop
 			{
+				oScoreTracker.roomScore = 0 
 				game_end()
 			}
 		}

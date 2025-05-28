@@ -1,3 +1,7 @@
+//Play Bullet Sound
+audio_play_sound(sndBulletFire,8,false,1,0,random_range(0.9,2))
+
+
 //Set target post to oPlayer
 xTo = oPlayer.x
 yTo = oPlayer.y - 16 //-16 to account for origin on bottom

@@ -1,3 +1,5 @@
+randomize();
+
 //Input Globals
 global.leftKey = ord("A")
 global.rightKey = ord("D")
@@ -13,6 +15,7 @@ global.score = {
 	testLevel : 0,
 	testLevel2 : 0,
 	level1 : 0,
+	level2 : 0,
 };
 global.iPauseMenu = instance_create_depth(x,y,depth,oPauseMenu)
 
