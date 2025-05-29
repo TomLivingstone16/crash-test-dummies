@@ -11,7 +11,7 @@ if room != (rLevelSelect || rTitle)
 		var _inst = instance_find(pObstacle,i) 
 		{
 			//If instance does not contribute to score, filter out
-			if !(_inst.object_index = oMovingObstacle 
+			if !(_inst.object_index = oLaserField 
 			or _inst.object_index = oBulletObstacle 
 			or _inst.object_index = pObstacle)
 			{
@@ -39,4 +39,6 @@ if room != (rLevelSelect || rTitle)
 		if !instance_exists(oLevelEnder) instance_create_depth(x,y,depth,oLevelEnder)
 		
 	}
+	
+	show_debug_message(_count)
 }

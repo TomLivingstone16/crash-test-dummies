@@ -6,6 +6,9 @@ switch (room)
 	case rLevel2:
 		toolTipString = "These are turrets.\nThey'll shoot if you get close.\nDestroy them all."
 		break;
+	case rLevel3:
+		toolTipString = "These are lasers!\nYou can't destroy them,\nbut they can destroy you!"
+		break;
 	default:
 		toolTipString = "This will never happen\nbut it would be funny\nif it did."
 		

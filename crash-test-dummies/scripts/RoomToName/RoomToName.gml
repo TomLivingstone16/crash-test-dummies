@@ -15,6 +15,16 @@ function RoomToName(_room)
 		case rLevel2: 
 			_name = "Turrets"
 			break;
+		case rLevel3:
+			_name = "Lasers"
+			break;
+		case rLevel4:
+			_name = ""
+			break;
+		case rLevel5:
+			_name = ""
+			break;
+		
 		default:
 			_name =  "invalid room"
 			break;
