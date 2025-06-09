@@ -26,3 +26,6 @@ state = states.move
 
 //Score on defeat
 scoreVal = 0 //Bullets are worth nothing since score is incremented from the spawner's destruction
+
+//Object that created this bullet
+creator = noone

@@ -15,4 +15,8 @@ switch(room)
 		break;
 	case rLevel3:
 		global.score.level3 = roomScore
+	case rLevel4:
+		global.score.level4 = roomScore
+	case rLevel5:
+		global.score.level5 = roomScore
 }

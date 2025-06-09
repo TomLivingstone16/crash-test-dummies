@@ -30,6 +30,7 @@ function ShootState()
 		var _inst = instance_create_depth(x,y,depth,oBulletObstacle)
 		with (_inst)
 		{
+			creator = other.id
 			spd = other.bulletSpd
 		}
 		timer = timerLength

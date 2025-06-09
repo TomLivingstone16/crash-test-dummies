@@ -19,12 +19,10 @@ function RoomToName(_room)
 			_name = "Lasers"
 			break;
 		case rLevel4:
-			_name = ""
+			_name = "Leap of Faith"
 			break;
 		case rLevel5:
-			_name = ""
-			break;
-		
+			
 		default:
 			_name =  "invalid room"
 			break;

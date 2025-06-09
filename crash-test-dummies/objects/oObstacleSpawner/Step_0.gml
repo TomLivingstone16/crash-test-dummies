@@ -8,11 +8,12 @@ dir = point_direction(x,y,xTo,yTo)
 //Calculate distance to player
 var _dist = point_distance(x,y,xTo,yTo)
 
-//If distance is less than our radius, instigate follow state
+//If distance is less than our radius, instigate shoot state
 if _dist < radius
 {
 	state = states.shoot
 }
+
 
 
 //Activate State
