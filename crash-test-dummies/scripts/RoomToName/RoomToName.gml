@@ -22,7 +22,8 @@ function RoomToName(_room)
 			_name = "Leap of Faith"
 			break;
 		case rLevel5:
-			
+			_name = "Finale"
+			break;
 		default:
 			_name =  "invalid room"
 			break;

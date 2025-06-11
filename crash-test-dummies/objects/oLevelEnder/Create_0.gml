@@ -1,3 +1,6 @@
+//Update unlocked levels
+if global.levelsUnlocked+1 < global.maxLevels global.levelsUnlocked += 1;
+
 //Spawn confetti objects
 var _inst;
 repeat(irandom_range(100,250))

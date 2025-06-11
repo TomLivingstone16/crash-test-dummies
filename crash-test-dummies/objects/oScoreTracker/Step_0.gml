@@ -31,12 +31,8 @@ if room != (rLevelSelect || rTitle)
 
 	if _count <= 0 && !instance_exists(oRoomTransition)
 	{
-		//Update unlocked levels
-		if global.levelsUnlocked+1 < global.maxLevels global.levelsUnlocked += 1;
-		
-		
-		//Run confetti and stuff first
-		if !instance_exists(oLevelEnder) instance_create_depth(x,y,depth,oLevelEnder)
+		//Run confetti and stuff
+		if !instance_exists(oLevelEnder) instance_create_depth(x,y,depth,oLevelEnder)	
 		
 	}
 	
