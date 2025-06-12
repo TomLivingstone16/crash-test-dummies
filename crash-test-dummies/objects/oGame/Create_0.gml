@@ -28,6 +28,7 @@ global.maxLevels = array_length(global.levelprogression)
 global.gamePaused = false
 
 global.roomsVisited = array_create(0)
+global.levelsCompleted = array_create(0)
 
 
 

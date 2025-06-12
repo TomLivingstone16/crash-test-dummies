@@ -2,21 +2,28 @@
 switch(room)
 {
 	case rTesting:
-		global.score.testLevel = roomScore
+		if roomScore > global.score.testLevel
+			global.score.testLevel = roomScore
 		break;
 	case rTesting2:
-		global.score.testLevel2 = roomScore
+		if roomScore > global.score.testLevel2
+			global.score.testLevel2 = roomScore
 		break;
 	case rLevel1:
-		global.score.level1 = roomScore
+		if roomScore > global.score.level1
+			global.score.level1 = roomScore
 		break;
 	case rLevel2:
-		global.score.level2 = roomScore
+		if roomScore > global.score.level2
+			global.score.level2 = roomScore
 		break;
 	case rLevel3:
-		global.score.level3 = roomScore
+		if roomScore > global.score.level3
+			global.score.level3 = roomScore
 	case rLevel4:
-		global.score.level4 = roomScore
+		if roomScore > global.score.level4
+			global.score.level4 = roomScore
 	case rLevel5:
-		global.score.level5 = roomScore
+		if roomScore > global.score.level5
+			global.score.level5 = roomScore
 }

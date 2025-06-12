@@ -1,5 +1,11 @@
 //Update unlocked levels
-if global.levelsUnlocked+1 < global.maxLevels global.levelsUnlocked += 1;
+if !array_contains(global.levelsCompleted,RoomToName(room)) //if we've not completed this level before
+{
+	array_push(global.levelsCompleted,RoomToName(room)) //Add this room to levels completed so we don't accidentally add more levels than we've unlocked
+	if global.levelsUnlocked+1 < global.maxLevels global.levelsUnlocked += 1;
+}
+
+
 
 //Spawn confetti objects
 var _inst;
