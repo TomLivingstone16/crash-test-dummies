@@ -20,6 +20,7 @@
   "height":20,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"487b2c59-a428-4b2e-a140-ea8e217e3e8b","blendMode":3,"displayName":"Layer 1","isLocked":false,"name":"487b2c59-a428-4b2e-a140-ea8e217e3e8b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"ee967f76-8ad0-4977-8a61-053327db680d","blendMode":0,"displayName":"default","isLocked":false,"name":"ee967f76-8ad0-4977-8a61-053327db680d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sFloatingSaw",

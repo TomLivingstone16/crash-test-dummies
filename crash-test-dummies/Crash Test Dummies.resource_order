@@ -57,9 +57,11 @@
     {"name":"sPlayerJump","order":4,"path":"sprites/sPlayerJump/sPlayerJump.yy",},
     {"name":"sPlayerRun","order":3,"path":"sprites/sPlayerRun/sPlayerRun.yy",},
     {"name":"sRoomTransition","order":14,"path":"sprites/sRoomTransition/sRoomTransition.yy",},
+    {"name":"sTiles","order":6,"path":"sprites/sTiles/sTiles.yy",},
     {"name":"sTitle","order":15,"path":"sprites/sTitle/sTitle.yy",},
     {"name":"sTooltipBox","order":18,"path":"sprites/sTooltipBox/sTooltipBox.yy",},
     {"name":"sTurret","order":13,"path":"sprites/sTurret/sTurret.yy",},
     {"name":"sWall","order":7,"path":"sprites/sWall/sWall.yy",},
+    {"name":"tTiles","order":7,"path":"tilesets/tTiles/tTiles.yy",},
   ],
 }
