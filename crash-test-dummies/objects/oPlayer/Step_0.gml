@@ -1,4 +1,4 @@
-if !(global.gamePaused or instance_exists(oConfetti))
+if !(global.gamePaused or (instance_exists(oConfetti) && oToolTip.gameCompleted == false))
 {
 	state();
 }

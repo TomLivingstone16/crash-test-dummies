@@ -16,6 +16,8 @@ repeat(irandom_range(100,250))
 	//Set to a random frame and colour
 	_inst.image_index = irandom_range(0,3)
 	_inst.image_blend = make_colour_rgb(irandom(255),irandom(255),irandom(255))
+	_inst.image_xscale = choose(1,-1)
+	_inst.image_yscale = choose(1,-1)
 }
 
 

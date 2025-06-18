@@ -12,6 +12,9 @@ switch (room)
 	case rLevel4:
 		toolTipString = "Jump."
 		break;
+	case rLevel5:
+		if gameCompleted == false toolTipString = "You're in the home\nstretch now." else toolTipString = "Something has opened."
+		break;
 	default:
 		toolTipString = "This will never happen\nbut it would be funny\nif it did."
 		
