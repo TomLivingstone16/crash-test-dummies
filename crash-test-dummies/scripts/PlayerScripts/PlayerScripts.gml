@@ -69,7 +69,7 @@ function PlayerStateMove()
 	
 		yspd = 0
 	}
-
+	
 	//Move
 	x += xspd
 	y += yspd
