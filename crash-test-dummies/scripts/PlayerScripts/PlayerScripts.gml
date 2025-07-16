@@ -52,6 +52,7 @@ function PlayerStateMove()
 	//Jump
 	if jumpKeyBuffered && place_meeting(x,y+1,oWall)
 	{
+		audio_play_sound(sndJump,8,false)
 		jumpKeyBuffered = false
 		jumpKeyBufferTimer = 0;
 		yspd = jspd;

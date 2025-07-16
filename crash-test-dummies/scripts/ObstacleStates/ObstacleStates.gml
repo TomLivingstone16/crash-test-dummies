@@ -19,6 +19,9 @@ function MoveState()
 function DestroyState()
 {
 	oScoreTracker.roomScore += scoreVal
+	
+	instance_create_depth(x,y,depth,oExplosion)
+	
 	//Destroy the obstacle
 	instance_destroy()
 }
