@@ -166,7 +166,7 @@ if changingKey = true
 	
 }
 	
-}
+} else SaveVariables()
 
 if keyboard_check_pressed(global.pauseKey) && changingKey == false && room != rTitle && room != rLevelSelect && menuLevel == 0
 {

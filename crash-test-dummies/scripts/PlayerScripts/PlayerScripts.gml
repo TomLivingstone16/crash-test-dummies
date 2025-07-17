@@ -25,7 +25,8 @@ function PlayerStateMove()
 
 	//Calculate x movement
 	moveDir = (keyRight-keyLeft)
-
+	
+	
 	//Set Xspd
 	xspd = moveDir * moveSpd;
 

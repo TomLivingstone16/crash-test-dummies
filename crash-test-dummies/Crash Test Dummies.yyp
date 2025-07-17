@@ -81,6 +81,7 @@
     {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},},
     {"id":{"name":"sCollectibleTest","path":"sprites/sCollectibleTest/sCollectibleTest.yy",},},
     {"id":{"name":"sConfetti","path":"sprites/sConfetti/sConfetti.yy",},},
+    {"id":{"name":"sEndingScreen","path":"sprites/sEndingScreen/sEndingScreen.yy",},},
     {"id":{"name":"sExitDoor","path":"sprites/sExitDoor/sExitDoor.yy",},},
     {"id":{"name":"sExplosion","path":"sprites/sExplosion/sExplosion.yy",},},
     {"id":{"name":"sFloatingSaw","path":"sprites/sFloatingSaw/sFloatingSaw.yy",},},

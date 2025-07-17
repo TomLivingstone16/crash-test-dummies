@@ -36,7 +36,12 @@ function SaveGame(_name="NUL"){
 		}
 	}
 
-
+	SaveVariables();
+	
+	
+}
+function SaveVariables()
+{
 	//Store data in local variables
 	var _highscore = global.highscores
 	var _settings = [global.leftKey,global.rightKey,global.upKey,global.downKey,global.interactKey,global.jumpKey,global.pauseKey]
@@ -49,8 +54,6 @@ function SaveGame(_name="NUL"){
 	
 	//Save the string
 	SaveStringToFile("game.save",_val)
-	
-	
 }
 function LoadGame(){
 	if file_exists("game.save") //Only run this if the file exists. 

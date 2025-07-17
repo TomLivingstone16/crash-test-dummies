@@ -54,6 +54,7 @@
     {"name":"sCoin","order":3,"path":"sprites/sCoin/sCoin.yy",},
     {"name":"sCollectibleTest","order":1,"path":"sprites/sCollectibleTest/sCollectibleTest.yy",},
     {"name":"sConfetti","order":13,"path":"sprites/sConfetti/sConfetti.yy",},
+    {"name":"sEndingScreen","order":13,"path":"sprites/sEndingScreen/sEndingScreen.yy",},
     {"name":"sExitDoor","order":9,"path":"sprites/sExitDoor/sExitDoor.yy",},
     {"name":"sExplosion","order":11,"path":"sprites/sExplosion/sExplosion.yy",},
     {"name":"sFloatingSaw","order":10,"path":"sprites/sFloatingSaw/sFloatingSaw.yy",},
