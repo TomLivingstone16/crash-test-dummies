@@ -4,6 +4,8 @@ draw_set_valign(fa_middle)
 draw_set_colour(c_white)
 draw_set_font(fText)
 
+
+//Draw the leaderboard
 if settingName == false
 {
 	//Title
@@ -35,3 +37,5 @@ else
 	draw_text(96,162,"Please enter your name (3 char limit)")
 	draw_text(96,180,storedName)
 }
+
+

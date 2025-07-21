@@ -42,7 +42,7 @@ if (global.gamePaused)
 			}
 			if selectedOption == 4 //if selected quit to desktop
 			{
-				oScoreTracker.roomScore = 0 
+				if instance_exists(oScoreTracker) oScoreTracker.roomScore = 0 
 				game_end()
 			}
 		}
@@ -97,6 +97,19 @@ if (global.gamePaused)
 		}
 	}
 	
+	if keyboard_check_pressed(global.backKey) && changingKey == false
+	switch(menuLevel)
+	{
+		case 0:
+			global.gamePaused = false
+			break;
+		case 1:
+			menuLevel = 0
+			break;
+		case 2:
+			menuLevel = 1
+			break;
+	}
 if changingKey = true
 {
 	switch(selectedOption)
@@ -168,7 +181,7 @@ if changingKey = true
 	
 } else SaveVariables()
 
-if keyboard_check_pressed(global.pauseKey) && changingKey == false && room != rTitle && room != rLevelSelect && menuLevel == 0
+if keyboard_check_pressed(global.pauseKey) && changingKey == false && room != rTitle && room != rLevelSelect && menuLevel == 0 && room != rEndingRoom && room != rScoreRoom
 {
 	global.gamePaused = !global.gamePaused
 }

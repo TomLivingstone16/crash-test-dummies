@@ -29,3 +29,8 @@ if settingName = true
 		scoreSet = true
 	}
 }
+
+if keyboard_check_pressed(global.backKey) && settingName == false
+{
+	RoomTransition(rLevelSelect)
+}

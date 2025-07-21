@@ -32,6 +32,7 @@
     {"id":{"name":"oBulletObstacle","path":"objects/oBulletObstacle/oBulletObstacle.yy",},},
     {"id":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},},
     {"id":{"name":"oConfetti","path":"objects/oConfetti/oConfetti.yy",},},
+    {"id":{"name":"oEndScreen","path":"objects/oEndScreen/oEndScreen.yy",},},
     {"id":{"name":"oExitDoor","path":"objects/oExitDoor/oExitDoor.yy",},},
     {"id":{"name":"oExplosion","path":"objects/oExplosion/oExplosion.yy",},},
     {"id":{"name":"oFloatingSaw","path":"objects/oFloatingSaw/oFloatingSaw.yy",},},
@@ -52,6 +53,7 @@
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"pCollectible","path":"objects/pCollectible/pCollectible.yy",},},
     {"id":{"name":"pObstacle","path":"objects/pObstacle/pObstacle.yy",},},
+    {"id":{"name":"rEndingRoom","path":"rooms/rEndingRoom/rEndingRoom.yy",},},
     {"id":{"name":"rInit","path":"rooms/rInit/rInit.yy",},},
     {"id":{"name":"rLevel1","path":"rooms/rLevel1/rLevel1.yy",},},
     {"id":{"name":"rLevel2","path":"rooms/rLevel2/rLevel2.yy",},},
@@ -115,6 +117,7 @@
     {"roomId":{"name":"rLevel4","path":"rooms/rLevel4/rLevel4.yy",},},
     {"roomId":{"name":"rLevel5","path":"rooms/rLevel5/rLevel5.yy",},},
     {"roomId":{"name":"rScoreRoom","path":"rooms/rScoreRoom/rScoreRoom.yy",},},
+    {"roomId":{"name":"rEndingRoom","path":"rooms/rEndingRoom/rEndingRoom.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
