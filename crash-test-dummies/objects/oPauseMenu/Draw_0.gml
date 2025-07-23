@@ -13,11 +13,11 @@ if global.gamePaused
 	{
 		if i = selectedOption
 		{
-			draw_set_colour(c_yellow)
-			draw_text((camera_get_view_x(view_camera[0])+320),(camera_get_view_y(view_camera[0])+130+18*i),"> " +options[menuLevel][i] + " <")
-			draw_set_colour(c_white)
+			
+			OutlineText((camera_get_view_x(view_camera[0])+320),(camera_get_view_y(view_camera[0])+130+18*i),"> " +options[menuLevel][i] + " <",c_yellow)
+			
 		}
-		else draw_text((camera_get_view_x(view_camera[0])+320),(camera_get_view_y(view_camera[0])+130+18*i),options[menuLevel][i])
+		else OutlineText((camera_get_view_x(view_camera[0])+320),(camera_get_view_y(view_camera[0])+130+18*i),options[menuLevel][i])
 		
 	}
 }

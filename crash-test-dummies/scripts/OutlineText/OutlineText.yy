@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"OutlineText",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"OutlineText",
+  "parent":{
+    "name":"Manager",
+    "path":"folders/Manager.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

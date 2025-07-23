@@ -162,6 +162,7 @@
     {"name":"inst_724E76BC","path":"rooms/rLevel4/rLevel4.yy",},
     {"name":"inst_628A8E7F","path":"rooms/rLevel4/rLevel4.yy",},
     {"name":"inst_71910D1A","path":"rooms/rLevel4/rLevel4.yy",},
+    {"name":"inst_74A54E5D","path":"rooms/rLevel4/rLevel4.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -348,6 +349,7 @@
         {"$GMRInstance":"v2","%Name":"inst_3D71D6B5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3D71D6B5","objectId":{"name":"oObstacleSpawner","path":"objects/oObstacleSpawner/oObstacleSpawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-180.0,"scaleX":1.0,"scaleY":1.0,"x":344.0,"y":1120.0,},
         {"$GMRInstance":"v2","%Name":"inst_628A8E7F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_628A8E7F","objectId":{"name":"oToolTip","path":"objects/oToolTip/oToolTip.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":592.0,"y":8.0,},
         {"$GMRInstance":"v2","%Name":"inst_71910D1A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_71910D1A","objectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":3.0,"x":192.0,"y":1056.0,},
+        {"$GMRInstance":"v2","%Name":"inst_74A54E5D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_74A54E5D","objectId":{"name":"oSafetyNet","path":"objects/oSafetyNet/oSafetyNet.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":56.0,"y":16.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4291608759,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

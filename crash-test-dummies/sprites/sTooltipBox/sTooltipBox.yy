@@ -24,15 +24,15 @@
   "name":"sTooltipBox",
   "nineSlice":{
     "$GMNineSliceData":"",
-    "bottom":7,
+    "bottom":1,
     "enabled":true,
     "guideColour":[4294902015,4294902015,4294902015,4294902015,],
     "highlightColour":1728023040,
     "highlightStyle":0,
-    "left":7,
+    "left":1,
     "resourceType":"GMNineSliceData",
     "resourceVersion":"2.0",
-    "right":7,
+    "right":1,
     "tileMode":[
       1,
       1,
@@ -40,7 +40,7 @@
       1,
       0,
     ],
-    "top":7,
+    "top":1,
   },
   "origin":0,
   "parent":{

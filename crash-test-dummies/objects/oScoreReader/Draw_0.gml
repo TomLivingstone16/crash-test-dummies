@@ -9,7 +9,7 @@ draw_set_font(fText)
 if settingName == false
 {
 	//Title
-	draw_text(96,46,"LEADERBOARD")
+	OutlineText(96,46,"LEADERBOARD")
 	//Draw Top 10 Scores
 	for (var i = 0; i < 10; i++)
 	{
@@ -20,11 +20,11 @@ if settingName == false
 		}
 	
 		//Highest score is highlighted in yellow
-		if i = 0 draw_set_colour(c_yellow) else draw_set_colour(c_white)
+		if i = 0 var _col = c_yellow else _col = c_white
 	
 		//Draw other scores below it
-		draw_text(96,64+18*i,global.highscores[i][0])
-		draw_text(150,64+18*i,"|    " + global.highscores[i][1])
+		OutlineText(96,64+18*i,global.highscores[i][0],_col)
+		OutlineText(150,64+18*i,"|    " + global.highscores[i][1],_col)
 	}
 }
 else
@@ -34,8 +34,11 @@ else
 	draw_rectangle(0,0,640,360,false)
 	draw_set_colour(c_white)
 	draw_set_alpha(1)
-	draw_text(96,162,"Please enter your name (3 char limit)")
-	draw_text(96,180,storedName)
+	OutlineText(96,162,"Please enter your name (3 char limit)")
+	OutlineText(96,180,storedName)
 }
 
+draw_set_halign(fa_right)
 
+OutlineText(600,300,string("Press [{0}] to save score",KeyToString(global.interactKey)))
+OutlineText(600,320,string("Press [{0}] to go back",KeyToString(global.backKey)))

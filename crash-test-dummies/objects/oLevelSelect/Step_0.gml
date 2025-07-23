@@ -1,4 +1,4 @@
-if ((keyboard_check_pressed(global.downKey) or keyboard_check_pressed(global.upKey)) && settingName = false) 
+if (keyboard_check_pressed(global.downKey) or keyboard_check_pressed(global.upKey))
 {
 	selectedOption += (keyboard_check_pressed(global.downKey) - keyboard_check_pressed(global.upKey))
 	audio_play_sound(sndMenuNavigation,8,false)
@@ -17,24 +17,8 @@ if keyboard_check_pressed(global.interactKey) && selectedOption != global.levels
 	show_debug_message(RoomToName(global.levelprogression[selectedOption]))
 	RoomTransition(global.levelprogression[selectedOption])
 }
-else if keyboard_check_pressed(global.interactKey) && selectedOption == global.levelsUnlocked + 1 && settingName == false
-{
-	settingName = true
-	keyboard_string = ""
-	
-}
 
-
-if settingName = true
+if keyboard_check_pressed(global.interactKey) && selectedOption == global.levelsUnlocked + 1
 {
-	if keyboard_check_pressed(vk_escape) settingName = false
-	
-	if string_length(keyboard_string) <= 3 storedName = keyboard_string else keyboard_string = storedName
-	
-	var _name = string_upper(storedName) // in local variable to protect against enter deleting the string, also capitalize
-	if keyboard_check_pressed(global.interactKey) && _name != ""
-	{
-		SaveGame(_name)
-		settingName = false
-	}
+	RoomTransition(rScoreRoom)
 }
