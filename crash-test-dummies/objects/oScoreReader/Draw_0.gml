@@ -25,6 +25,12 @@ if settingName == false
 		//Draw other scores below it
 		OutlineText(96,64+18*i,global.highscores[i][0],_col)
 		OutlineText(150,64+18*i,"|    " + global.highscores[i][1],_col)
+		
+		//Draw Number next to it
+		draw_set_halign(fa_right)
+		OutlineText(95,64+18*i,string("{0} | ", i+1))
+		draw_set_halign(fa_left)
+	
 	}
 }
 else
