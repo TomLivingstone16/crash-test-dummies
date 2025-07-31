@@ -1,10 +1,12 @@
 if (global.gamePaused)
 {
+	//Get menu inputs
 	if (keyboard_check_pressed(global.downKey) or keyboard_check_pressed(global.upKey)) && changingKey == false
 	{
 		selectedOption += (keyboard_check_pressed(global.downKey) - keyboard_check_pressed(global.upKey))
 		audio_play_sound(sndMenuNavigation,8,false)
 	}
+	//If outside of bounds, loop around to other end
 	if selectedOption < 0
 	{
 		selectedOption = array_length(options[menuLevel]) -1
@@ -97,6 +99,7 @@ if (global.gamePaused)
 		}
 	}
 	
+	//If we press back key, go back a level
 	if keyboard_check_pressed(global.backKey) && changingKey == false
 	switch(menuLevel)
 	{
@@ -110,6 +113,8 @@ if (global.gamePaused)
 			menuLevel = 1
 			break;
 	}
+
+//If we're changing the keybinds
 if changingKey = true
 {
 	switch(selectedOption)
@@ -179,8 +184,9 @@ if changingKey = true
 	
 }
 	
-} else SaveVariables()
+} else SaveVariables() //Save the settings
 
+//If we're not doing anything important, unpause the game or pause the game
 if keyboard_check_pressed(global.pauseKey) && changingKey == false && room != rTitle && room != rLevelSelect && menuLevel == 0 && room != rEndingRoom && room != rScoreRoom
 {
 	global.gamePaused = !global.gamePaused

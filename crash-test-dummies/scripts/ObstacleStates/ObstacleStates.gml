@@ -18,8 +18,10 @@ function MoveState()
 }
 function DestroyState()
 {
+	//Increment Room Score
 	oScoreTracker.roomScore += scoreVal
 	
+	//Explosion
 	instance_create_depth(x,y,depth,oExplosion)
 	
 	//Destroy the obstacle
@@ -27,20 +29,26 @@ function DestroyState()
 }
 function ShootState()
 {
+	//Rotate the image
 	image_angle = dir
+	
+	//If the cooldown reaches 0
 	if timer = 0
 	{
+		//Create a new bullet
 		var _inst = instance_create_depth(x,y,depth,oBulletObstacle)
 		with (_inst)
 		{
 			creator = other.id
 			spd = other.bulletSpd
 		}
+		//Reset the timer and decrease the max shots
 		timer = timerLength
 		maxShots--;
 	}
 	else timer--;
-
+	
+	//If we're out of shots, destroy the spawner
 	if maxShots <= 0
 	{
 		state = states.destroy

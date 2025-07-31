@@ -1,10 +1,11 @@
+//If applicable, run the current state
 if !(global.gamePaused or (instance_exists(oConfetti) && oToolTip.gameCompleted == false))
 {
+	image_speed = 1
 	state();
 }
 else
 {
-	sprite_index = sprIdle
 	image_speed = 0
 }
 

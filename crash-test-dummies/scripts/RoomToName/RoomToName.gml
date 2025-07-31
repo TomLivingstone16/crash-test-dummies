@@ -1,5 +1,6 @@
 function RoomToName(_room)
 {
+	//Switch in room and return the name of the level
 	var _name = ""
 	switch(_room)
 	{

@@ -1,5 +1,5 @@
 function KeyToString(_key){
-	
+	//Take the key input and return the name of the key
 	switch _key
 	{
 		case	0:		return " "

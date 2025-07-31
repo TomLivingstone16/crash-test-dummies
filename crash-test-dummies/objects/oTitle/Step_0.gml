@@ -11,7 +11,8 @@ else if alpha >= 1
 alpha += alphaWave/50
 #endregion
 
-if keyboard_check_pressed(vk_enter)
+//If we press the interact key, go to level select
+if keyboard_check_pressed(global.interactKey)
 {
 	RoomTransition(rLevelSelect)
 }

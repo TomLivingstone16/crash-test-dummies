@@ -1,3 +1,4 @@
+//Get tooltip for each level
 switch (room)
 {
 	case rLevel1: 

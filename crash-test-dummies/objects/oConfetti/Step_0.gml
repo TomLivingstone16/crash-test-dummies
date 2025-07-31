@@ -1,3 +1,4 @@
+//creates floating down effect
 if xposVal <= -0.5
 {
 	xposValWave = 1

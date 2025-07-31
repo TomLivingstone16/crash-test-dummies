@@ -1,3 +1,4 @@
+//If we've pressed to interact, setup for naming
 if keyboard_check_pressed(global.interactKey) && settingName == false && scoreSet == false
 {
 	settingName = true
@@ -7,6 +8,7 @@ if keyboard_check_pressed(global.interactKey) && settingName == false && scoreSe
 
 if settingName = true
 {
+	
 	if keyboard_check_pressed(vk_escape) settingName = false
 	
 	if string_length(keyboard_string) <= 3 storedName = keyboard_string else keyboard_string = storedName
@@ -30,6 +32,7 @@ if settingName = true
 	}
 }
 
+//If back key pressed, go back
 if keyboard_check_pressed(global.backKey) && settingName == false
 {
 	RoomTransition(rLevelSelect)

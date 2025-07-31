@@ -1,3 +1,4 @@
+//If touching player, add to score value
 if place_meeting(x,y,oPlayer)
 {
 	oScoreTracker.roomScore += value

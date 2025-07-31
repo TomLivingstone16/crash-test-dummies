@@ -9,8 +9,8 @@
   "name":"oExplosion",
   "overriddenProperties":[],
   "parent":{
-    "name":"Crash Test Dummies",
-    "path":"Crash Test Dummies.yyp",
+    "name":"Misc",
+    "path":"folders/Misc.yy",
   },
   "parentObjectId":null,
   "persistent":false,

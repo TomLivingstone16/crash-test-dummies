@@ -12,8 +12,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Crash Test Dummies",
-    "path":"Crash Test Dummies.yyp",
+    "name":"Misc",
+    "path":"folders/Misc.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

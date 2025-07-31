@@ -107,10 +107,13 @@ function PlayerStateMove()
 }
 function PlayerStateHit()
 {
+	//Deactivate everything else so we don't get hit again
 	instance_deactivate_object(pObstacle)
 	instance_deactivate_object(oObstacleSpawner)
 	instance_deactivate_object(pCollectible)
 	instance_deactivate_object(oScoreTracker)
+	
+	//Set sprite and speed
 	sprite_index = sPlayerHurt
 	if image_xscale > 0 && moving == false //Facing Right
 	{
@@ -155,6 +158,8 @@ function PlayerStateHit()
 	
 		yspd = 0
 	}
+	
+	//Decrease speed to slide to a stop
 	if image_xscale > 0
 	{
 		xspd += 0.15
@@ -163,7 +168,8 @@ function PlayerStateHit()
 	{
 		xspd -= 0.15
 	}
-
+	
+	//If we would reach 0 next step, set speed to 0 and state to dead
 	if (xspd - 0.15 <= 0 && image_xscale < 0) or (xspd + 0.15 >= 0 && image_xscale > 0)
 	{
 		xspd = 0 
@@ -176,9 +182,11 @@ function PlayerStateHit()
 }
 function PlayerStateDead()
 {
+	//display dead sprite
 	sprite_index = sPlayerDead
 	deathWaitTime--;
 	
+	//After the pause, reload the room by transitioning to the same room we're in
 	if deathWaitTime <= 0
 	{
 		RoomTransition(room,#BF1618)

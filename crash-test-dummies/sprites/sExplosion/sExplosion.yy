@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Crash Test Dummies",
-    "path":"Crash Test Dummies.yyp",
+    "name":"Misc",
+    "path":"folders/Misc.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

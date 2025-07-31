@@ -1,3 +1,4 @@
+//Draw text box and text
 draw_set_valign(fa_top)
 draw_set_halign(fa_left)
 if !(global.gamePaused or (instance_exists(oLevelEnder) && !gameCompleted) or oPlayer.state = PlayerStateDead or oPlayer.state = PlayerStateHit)

@@ -29,6 +29,7 @@ if (!global.gamePaused)
 		if justVisited == 0 justVisited = 1 else justVisited = 0
 	}
 	
+	//If confetti exists, pause movement so we don't kill the player accidentally
 	if instance_exists(oConfetti)
 	{
 		xspd = 0

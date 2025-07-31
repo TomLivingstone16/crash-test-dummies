@@ -20,7 +20,6 @@ for (var i = 0; i < global.levelsUnlocked+1; i++)
 }
 
 OutlineText(96,82+18*(global.levelsUnlocked),"|--------------|")
-
 if selectedOption == global.levelsUnlocked + 1
 {
 	OutlineText(96,100+18*(global.levelsUnlocked),"SHOW LEADERBOARD <",c_yellow)

@@ -12,6 +12,7 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Audio","folderPath":"folders/Audio.yy","name":"Audio","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Collectibles","folderPath":"folders/Collectibles.yy","name":"Collectibles","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Misc","folderPath":"folders/Misc.yy","name":"Misc","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Manager","folderPath":"folders/Manager.yy","name":"Manager","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Obstacles","folderPath":"folders/Obstacles.yy","name":"Obstacles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -66,7 +67,6 @@
     {"id":{"name":"rTesting","path":"rooms/rTesting/rTesting.yy",},},
     {"id":{"name":"rTesting2","path":"rooms/rTesting2/rTesting2.yy",},},
     {"id":{"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},},
-    {"id":{"name":"ChangeKeybind","path":"scripts/ChangeKeybind/ChangeKeybind.yy",},},
     {"id":{"name":"KeyToString","path":"scripts/KeyToString/KeyToString.yy",},},
     {"id":{"name":"ObstacleStates","path":"scripts/ObstacleStates/ObstacleStates.yy",},},
     {"id":{"name":"OutlineText","path":"scripts/OutlineText/OutlineText.yy",},},

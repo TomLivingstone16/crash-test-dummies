@@ -1,1 +1,2 @@
+//Play explosion sound
 audio_play_sound(sndExplosion,8,false)

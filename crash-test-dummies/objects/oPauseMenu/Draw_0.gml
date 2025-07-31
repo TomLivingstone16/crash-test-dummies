@@ -1,3 +1,4 @@
+//Draw Pause menu
 if global.gamePaused 
 {
 	draw_set_alpha(0.8)

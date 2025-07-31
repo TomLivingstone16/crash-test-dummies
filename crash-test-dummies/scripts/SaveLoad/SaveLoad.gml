@@ -35,7 +35,6 @@ function SaveGame(_name="NUL"){
 			break
 		}
 	}
-
 	SaveVariables();
 	
 	
@@ -86,6 +85,7 @@ function LoadGame(){
 
 function SaveStringToFile(_filename,_string)
 {
+	//Create a buffer with the data we've got and save it to the file
 	var _buffer = buffer_create( string_byte_length(_string)+1,buffer_fixed, 1 );
 	buffer_write(_buffer, buffer_string, _string)
 	buffer_save(_buffer,_filename)
@@ -94,6 +94,7 @@ function SaveStringToFile(_filename,_string)
 
 function LoadJSONFromFile(_filename)
 {
+	//Find the buffer in the file we made and remove it, then turn it back into a string
 	var _buffer = buffer_load(_filename)
 	var _string = buffer_read(_buffer,buffer_string);
 	buffer_delete(_buffer)

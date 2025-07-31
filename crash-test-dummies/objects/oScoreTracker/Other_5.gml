@@ -1,4 +1,4 @@
-//Switch 
+//Add room score
 switch(room)
 {
 	case rTesting:
