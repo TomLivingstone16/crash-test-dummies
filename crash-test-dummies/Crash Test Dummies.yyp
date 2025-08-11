@@ -12,8 +12,8 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Audio","folderPath":"folders/Audio.yy","name":"Audio","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Collectibles","folderPath":"folders/Collectibles.yy","name":"Collectibles","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Misc","folderPath":"folders/Misc.yy","name":"Misc","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Manager","folderPath":"folders/Manager.yy","name":"Manager","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Misc","folderPath":"folders/Misc.yy","name":"Misc","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Obstacles","folderPath":"folders/Obstacles.yy","name":"Obstacles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -53,6 +53,7 @@
     {"id":{"name":"oTitle","path":"objects/oTitle/oTitle.yy",},},
     {"id":{"name":"oToolTip","path":"objects/oToolTip/oToolTip.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
+    {"id":{"name":"oWarning","path":"objects/oWarning/oWarning.yy",},},
     {"id":{"name":"pCollectible","path":"objects/pCollectible/pCollectible.yy",},},
     {"id":{"name":"pObstacle","path":"objects/pObstacle/pObstacle.yy",},},
     {"id":{"name":"rEndingRoom","path":"rooms/rEndingRoom/rEndingRoom.yy",},},

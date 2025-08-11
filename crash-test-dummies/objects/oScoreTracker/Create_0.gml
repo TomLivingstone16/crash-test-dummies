@@ -1,4 +1,4 @@
-if room == rTitle or room == rLevelSelect or room == rScoreRoom or room == rEndingRoom
+if room == rTitle or room == rLevelSelect or room == rScoreRoom or room == rEndingRoom or room == rInit
 {
 	instance_destroy(); //Delete just in case the other precautions don't work
 }
