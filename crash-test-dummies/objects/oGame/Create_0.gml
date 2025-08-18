@@ -9,7 +9,6 @@ global.interactKey = vk_enter
 global.jumpKey = vk_space
 global.pauseKey = vk_escape
 global.backKey = vk_shift
-
 //Set up Globals
 global.highscores = 0 //Empty at beginning, will be set with values once score is loaded
 global.score = {
